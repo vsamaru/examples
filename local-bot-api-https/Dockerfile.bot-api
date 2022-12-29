@@ -1,4 +1,4 @@
-FROM aiogram/telegram-bot-api:latest
+FROM aiogram/telegram-bot-api:latest@sha256:aaa40680f48ce50c252f9e38a720a64a77f47952402aab513b8e68b1d1ec2bcc
 
 # Install dependencies
 RUN apk add nginx openssl \
